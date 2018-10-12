@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "d5b92e9d14f218332d28603ca039cbd9"
+build_time: [553768117, 844241000]
+inputs:
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Bytes.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Dir.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/File.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/JSONConvertible.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Log.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectError.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectServer.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SwiftCompatibility.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SysProcess.swift": [553768109, 0]
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Utilities.swift": [553768109, 0]

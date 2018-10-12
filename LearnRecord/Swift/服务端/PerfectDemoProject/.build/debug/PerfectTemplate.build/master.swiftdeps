@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "a410160c409a2c3f5cfaa9e48fc07f98"
+build_time: [553776362, 103163000]
+inputs:
+  "/Users/yuechen/Home/Swift/PerfectDemoProject/Sources/main.swift": [553775750, 0]

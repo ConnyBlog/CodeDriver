@@ -116,10 +116,13 @@ def download_image(url):
 # 存储图片
 def save_image(content):
     # 设置路径
-    file_path = '{0}/{1}.{2}'.format(os.getcwd(), md5(content).hexdigest(), 'jpg')
+    pwd = os.getcwd()
+    father_path = os.path.abspath(os.path.dirname(pwd) + os.path.sep + ".")
+    file_path = father_path + '/Temp/' + md5(content).hexdigest() + '.png'
+
     if not os.path.exists(file_path):
         with open(file_path, 'wb') as f:
-            f.write(content)
+            f.write(picture)
             f.close()
 
 
@@ -137,12 +140,14 @@ def main(offset):
         html = get_page_detail(url)
         if html:
             result = parse_page_detail(html, url)
-            if result: save_to_mongo(result)
+            print(result)
+            # if result: save_to_mongo(result)
 
 
 if __name__ == '__main__':
     groups = [x * 20 for x in range(GROUP_START, GROUP_END + 1)]
+    main(1)
     # 开启多线程下载
-    pool = Pool()
-    pool.map(main, groups)
+    # pool = Pool()
+    # pool.map(main, groups)
     # main()

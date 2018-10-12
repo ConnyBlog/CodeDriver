@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "server"
+- "route"
+- "valueKey"
+- "TestHandler"
+provides-nominal:
+- "V15PerfectTemplate11TestHandler"
+provides-member:
+- ["V15PerfectTemplate11TestHandler", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "+"
+- "AssignmentPrecedence"
+- "Dictionary"
+- "FloatLiteralType"
+- "HTTPServer"
+- "IntegerLiteralType"
+- !private "MustacheEvaluationContext"
+- "MustacheEvaluationOutputCollector"
+- "MustachePageHandler"
+- "MustacheWebEvaluationContext"
+- "PerfectError"
+- "Routes"
+- "String"
+- "StringLiteralType"
+- "TestHandler"
+- "UnicodeScalarType"
+- "mustacheRequest"
+- "print"
+- "route"
+- "routeTrailingWildcardKey"
+- "server"
+- "valueKey"
+depends-member:
+- !private ["Ps9AnyObject", "MapType"]
+- ["Ps9AnyObject", "addRoutes"]
+- ["Ps9AnyObject", "documentRoot"]
+- !private ["Ps9AnyObject", "extendValues"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "requestCompleted"]
+- ["Ps9AnyObject", "serverPort"]
+- ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "webResponse"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "jsonEncodedString"]
+- ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "init"]
+- ["Ps10Collection", "jsonEncodedString"]
+- ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "jsonEncodedString"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "jsonEncodedString"]
+- ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "get"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "internalServerError"]
+- ["Ps23CustomStringConvertible", "jsonEncodedString"]
+- ["Ps23CustomStringConvertible", "post"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "init"]
+- ["Vs10Dictionary", "jsonEncodedString"]
+- ["Vs10Dictionary", "subscript"]
+- ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "post"]
+- ["Ps5Error", "networkError"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- ["Ps30ExpressibleByDictionaryLiteral", "jsonEncodedString"]
+- ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["O11PerfectHTTP10HTTPMethod", "get"]
+- ["O11PerfectHTTP10HTTPMethod", "post"]
+- ["P11PerfectHTTP11HTTPRequest", "documentRoot"]
+- ["P11PerfectHTTP11HTTPRequest", "param"]
+- ["P11PerfectHTTP11HTTPRequest", "path"]
+- ["P11PerfectHTTP11HTTPRequest", "urlVariables"]
+- ["P11PerfectHTTP12HTTPResponse", "appendBody"]
+- ["P11PerfectHTTP12HTTPResponse", "completed"]
+- ["P11PerfectHTTP12HTTPResponse", "setBody"]
+- !private ["P11PerfectHTTP12HTTPResponse", "status"]
+- !private ["O11PerfectHTTP18HTTPResponseStatus", "internalServerError"]
+- ["C17PerfectHTTPServer10HTTPServer", "addRoutes"]
+- ["C17PerfectHTTPServer10HTTPServer", "documentRoot"]
+- ["C17PerfectHTTPServer10HTTPServer", "init"]
+- ["C17PerfectHTTPServer10HTTPServer", "serverPort"]
+- ["C17PerfectHTTPServer10HTTPServer", "start"]
+- ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "post"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- ["P10PerfectLib15JSONConvertible", "jsonEncodedString"]
+- ["P10PerfectLib15JSONConvertible", "subscript"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["C15PerfectMustache25MustacheEvaluationContext", "MapType"]
+- !private ["C15PerfectMustache25MustacheEvaluationContext", "extendValues"]
+- !private ["C15PerfectMustache25MustacheEvaluationContext", "requestCompleted"]
+- !private ["C15PerfectMustache25MustacheEvaluationContext", "webResponse"]
+- !private ["P15PerfectMustache19MustachePageHandler", "MustacheEvaluationContext"]
+- ["P15PerfectMustache19MustachePageHandler", "extendValuesForResponse"]
+- ["P15PerfectMustache19MustachePageHandler", "init"]
+- ["P15PerfectMustache19MustachePageHandler", ""]
+- !private ["C15PerfectMustache28MustacheWebEvaluationContext", "extendValues"]
+- !private ["C15PerfectMustache28MustacheWebEvaluationContext", "requestCompleted"]
+- !private ["C15PerfectMustache28MustacheWebEvaluationContext", "webResponse"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["O10PerfectLib12PerfectError", "networkError"]
+- ["V11PerfectHTTP6Routes", "add"]
+- ["V11PerfectHTTP6Routes", "init"]
+- !private ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "jsonEncodedString"]
+- ["Ps8Sequence", "subscript"]
+- ["P17PerfectHTTPServer14ServerInstance", "addRoutes"]
+- ["P17PerfectHTTPServer14ServerInstance", "documentRoot"]
+- ["P17PerfectHTTPServer14ServerInstance", "init"]
+- ["P17PerfectHTTPServer14ServerInstance", "serverPort"]
+- ["P17PerfectHTTPServer14ServerInstance", "start"]
+- ["SS", "init"]
+- !private ["V15PerfectTemplate11TestHandler", "MustacheEvaluationContext"]
+- ["V15PerfectTemplate11TestHandler", "MustacheEvaluationOutputCollector"]
+- ["V15PerfectTemplate11TestHandler", "MustacheWebEvaluationContext"]
+- ["V15PerfectTemplate11TestHandler", "deinit"]
+- ["V15PerfectTemplate11TestHandler", "extendValuesForResponse"]
+- ["V15PerfectTemplate11TestHandler", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "post"]
+- !private ["Ps10_Indexable", "init"]
+- ["Ps10_Indexable", "jsonEncodedString"]
+- ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "init"]
+- ["Ps14_IndexableBase", "jsonEncodedString"]
+- ["Ps14_IndexableBase", "subscript"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "jsonEncodedString"]
+- ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O11PerfectHTTP10HTTPMethod"
+- "P11PerfectHTTP11HTTPRequest"
+- "P11PerfectHTTP12HTTPResponse"
+- !private "O11PerfectHTTP18HTTPResponseStatus"
+- "C17PerfectHTTPServer10HTTPServer"
+- "Ps8Hashable"
+- "P10PerfectLib15JSONConvertible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "C15PerfectMustache25MustacheEvaluationContext"
+- "P15PerfectMustache19MustachePageHandler"
+- !private "C15PerfectMustache28MustacheWebEvaluationContext"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "O10PerfectLib12PerfectError"
+- "V11PerfectHTTP6Routes"
+- "Ps8Sequence"
+- "P17PerfectHTTPServer14ServerInstance"
+- "SS"
+- "V15PerfectTemplate11TestHandler"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/debug/PerfectLib.swiftmodule"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/debug/PerfectNet.swiftmodule"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/debug/PerfectCrypto.swiftmodule"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/debug/PerfectThread.swiftmodule"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/http_parser.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCZlib/include/module.modulemap"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCZlib/include/../inftrees.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCZlib/include/../zutil.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCZlib/include/../zlib.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCZlib/include/../zconf.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCZlib/include/czlib.h"
+- "/Users/yuechen/Home/Swift/PerfectDemoProject/.build/debug/PerfectMustache.swiftmodule"
+interface-hash: "67e50427d3592effb4eafd6971371ffd"

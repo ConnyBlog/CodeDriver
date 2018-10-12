@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
 import re
+import os
 import csv
 import requests
 from tqdm import tqdm
@@ -7,9 +8,6 @@ from urllib.parse import urlencode
 from requests.exceptions import RequestException
 
 def get_one_page(city, keyword, region, page):
-    '''
-    获取网页html内容并返回
-    '''
     paras = {
         'jl': city,         # 搜索城市
         'kw': keyword,      # 搜索关键词
@@ -40,14 +38,10 @@ def get_one_page(city, keyword, region, page):
         return None
 
 def parse_one_page(html):
-    '''
-    解析HTML代码，提取有用信息并返回
-    '''
     # 正则表达式进行解析
     pattern = re.compile('<a style=.*? target="_blank">(.*?)</a>.*?'        # 匹配职位信息
         '<td class="gsmc"><a href="(.*?)" target="_blank">(.*?)</a>.*?'     # 匹配公司网址和公司名称
         '<td class="zwyx">(.*?)</td>', re.S)                                # 匹配月薪
-
     # 匹配所有符合条件的内容
     items = re.findall(pattern, html)
 
@@ -63,9 +57,6 @@ def parse_one_page(html):
         }
 
 def write_csv_file(path, headers, rows):
-    '''
-    将表头和行写入csv文件
-    '''
     # 加入encoding防止中文写入报错
     # newline参数防止每写入一行都多一个空行
     with open(path, 'a', encoding='gb18030', newline='') as f:
@@ -74,39 +65,32 @@ def write_csv_file(path, headers, rows):
         f_csv.writerows(rows)
 
 def write_csv_headers(path, headers):
-    '''
-    写入表头
-    '''
     with open(path, 'a', encoding='gb18030', newline='') as f:
         f_csv = csv.DictWriter(f, headers)
         f_csv.writeheader()
 
 def write_csv_rows(path, headers, rows):
-    '''
-    写入行
-    '''
     with open(path, 'a', encoding='gb18030', newline='') as f:
         f_csv = csv.DictWriter(f, headers)
         f_csv.writerows(rows)
 
 def main(city, keyword, region, pages):
-    '''
-    主函数
-    '''
+    pwd = os.getcwd()
+    father_path = os.path.abspath(os.path.dirname(pwd) + os.path.sep + ".")
+    filename = father_path + '/Temp/Zhaopin_' + city + '_' + keyword + '.csv'
 
-    filename = '/Users/yuechen/Home/PythonCode/Temp/Zhaopin_' + city + '_' + keyword + '.csv'
     headers = ['job', 'website', 'company', 'salary']
     write_csv_headers(filename, headers)
     for i in tqdm(range(pages)):
-        '''
-        获取该页中所有职位信息，写入csv文件
-        '''
+        # 获取该页中所有职位信息，写入csv文件
         jobs = []
         html = get_one_page(city, keyword, region, i)
         items = parse_one_page(html)
+        print(html.encode(encoding='gb18030'))
+
         for item in items:
             jobs.append(item)
         write_csv_rows(filename, headers, jobs)
 
 if __name__ == '__main__':
-    main('北京', 'python工程师', 2005, 10)
+    main('北京', 'python工程师', 2005, 2)
